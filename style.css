@@ -5,7 +5,8 @@
     /*flex-wrap: wrap; /* nowrap / wrap-reverse */
     flex-flow: row wrap;
     /*justify-content: center;*/
-    justify-content:/* flex-start;  flex-end;space-around;*/space-between;
+    justify-content:/* flex-start;  flex-end;space-around;*/space-between ;
+    /*align-items: center;*/
 }
 .flex-container > div{
     background-color: #f3f3f3;
@@ -14,6 +15,8 @@
 }
 .flex-container2{
     display: flex;
+    /*flex-direction: column;*/
+    flex-flow: row wrap;
     height: 200px;
     background-color: DodgerBlue;
     align-items: /*center*/center;
@@ -26,5 +29,4 @@
     width: 100px;
     text-align: center;
     line-height: 100px;
-
 }
